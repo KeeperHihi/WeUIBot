@@ -1,6 +1,7 @@
 __pycache__/
 .idea/
 local/
+TODO.md
 
 # 根配置
 /config/*.yaml
