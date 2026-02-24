@@ -1,0 +1,16 @@
+__pycache__/
+.idea/
+local/
+
+# 根配置
+/config/*.yaml
+!/config/config-template.yaml
+
+# LLM 插件配置
+/plugins/llm/config/*.yaml
+!/plugins/llm/config/config-template.yaml
+
+# 运行时生成文件
+/plugins/five_son/board/
+/plugins/simple_api/images/
+/board/
