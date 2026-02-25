@@ -4,7 +4,7 @@
 
 ## 项目说明
 
-- 本项目核心是 `plugin` 抽象：所有功能以插件形式加载和分发。
+- 本项目核心是 `plugin` 抽象：所有功能以热插拔的插件形式实现。
 - 微信控制能力由 `Wcf` 提供，`Wcf` 来自独立仓库：
   - 上游仓库：https://github.com/KeeperHihi/Wcf.git
   - 当前仓库内也包含了 `Wcf/` 目录，便于直接运行。
@@ -88,6 +88,8 @@ disabled_plugins:
 ### 4) LLM 配置
 
 复制并修改：`plugins/llm/config/config-template.yaml` -> `plugins/llm/config/config.yaml`
+
+把您的运营商信息补充完整
 
 
 ## 快速启动
