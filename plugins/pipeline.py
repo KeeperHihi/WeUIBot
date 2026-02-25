@@ -1,5 +1,3 @@
-# 此文件思路由人类提供，但代码版权归 GPT-3.5-Codex 所有
-
 import importlib.util
 import inspect
 import traceback
