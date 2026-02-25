@@ -28,7 +28,7 @@ WechatBot/
 │  ├─ config-template.yaml   # 全局配置模板
 │  └─ config.yaml            # 全局配置（自行填写）
 ├─ plugins/
-│  ├─ commander_ops/             # commander 管理操作
+│  ├─ commander_ops/         # commander 管理操作
 │  ├─ llm/                   # 默认对话与模型控制
 │  ├─ owner_ops/             # owner 管理操作
 │  ├─ pipeline.py            # 插件加载与分发管线
