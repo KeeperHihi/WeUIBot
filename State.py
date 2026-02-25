@@ -2,11 +2,7 @@ from pathlib import Path
 
 import utils as U
 
-import sys
 BASE_DIR = Path(__file__).resolve().parent
-WCF_DIR = BASE_DIR / 'Wcf'
-if str(WCF_DIR) not in sys.path:
-    sys.path.insert(0, str(WCF_DIR))
 from Wcf import Wcf
 
 
