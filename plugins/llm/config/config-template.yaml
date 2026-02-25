@@ -10,7 +10,7 @@ api:
             model: gpt-5.2
 
 model:
-    name: None
+    name: WechatLLM
 #    max_tokens: 8192
 #    temperature: 0.9
 #    top_p: 0.9
@@ -21,3 +21,4 @@ model:
 other:
     default_provider: RightCode
     default_model: gpt-5.2
+    request_timeout: 30
